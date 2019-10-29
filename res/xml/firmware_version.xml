@@ -29,6 +29,12 @@
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.AcmeVersionPreferenceController"/>
 
+    <!-- crDroid logo -->
+    <PreferenceScreen
+        android:layout="@layout/crdroid_logo"
+        android:key="crdroid_logo"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
