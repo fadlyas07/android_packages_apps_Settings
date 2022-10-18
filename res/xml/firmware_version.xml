@@ -21,12 +21,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Acme logo -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="acme_logo"
-        android:layout="@layout/acme_logo"
-        android:selectable="true"/>
-
     <!-- Acme version -->
     <Preference
             android:key="os_acme_version"
